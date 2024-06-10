@@ -6,7 +6,7 @@
 /*   By: amugira- <amugira-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/07 10:29:08 by amugira-          #+#    #+#             */
-/*   Updated: 2022/09/26 18:01:41 by amugira-         ###   ########.fr       */
+/*   Updated: 2024/06/10 16:24:35 by amugira-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ char	**ft_split(char const *s, char c)
 	if (arr == 0)
 		return (0);
 	while (i < length && s)
-	{	
+	{
 		while (*s == c)
 			s++ ;
 		arr[i] = ft_substr(s, 0, count_chars(s, c));
